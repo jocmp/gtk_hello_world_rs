@@ -1,0 +1,11 @@
+[package]
+name = "gtk_hello_world"
+version = "0.0.1"
+authors = ["Josiah Campbell"]
+edition = "2018" # This refers to the edition of Rust, not the package
+
+[dependencies]
+gtk = "0.9.0"
+glib = "0.10.0"
+gio = "0.9.1"
+
